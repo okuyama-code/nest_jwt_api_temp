@@ -18,7 +18,7 @@ yarn global add @nestjs/cli
 
 ## 起動
 ```
-docker compose exec app bash
+docker compose up
 ```
 ```
 docker compose exec app bash
