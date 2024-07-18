@@ -17,9 +17,7 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
-    "esModuleInterop": true,
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "moduleResolution": "node",
+    "esModuleInterop": true
   }
 }
