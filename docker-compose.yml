@@ -1,5 +1,5 @@
 services:
-  api:
+  app:
     build: .
     tty: true
     ports:
