@@ -45,6 +45,20 @@ http://localhost:5555/ でdbのデータなどを確認
 ```
 npx prisma studio
 ```
+スキーマの同期：
+Prismaスキーマファイル（通常はschema.prisma）に定義されたデータモデルに基づいて、データベースのスキーマを更新
+```
+npx prisma db push
+```
+
+## nest コマンド 参考
+```
+npx nest g module auth
+npx nest g module prisma
+```
+```
+npx nest g service prisma --no-spec
+```
 
 
 ## envファイルに記述するもの
@@ -67,4 +81,10 @@ NODE_ENV=development
 
 # Application port
 PORT=3001
+```
+
+## importできないエラーに遭遇した時は
+yarn.lock, node_modulesを削除後
+```
+yarn install
 ```
